@@ -48,7 +48,7 @@ class Clock extends React.Component{
             secondsRemaning: this.state.secondsRemaning -1
           })
         }
-      }, 1);
+      }, 1000);
     }
     else{
       clearInterval(interval)
